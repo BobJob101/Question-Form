@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=cyrillic" rel="stylesheet">
+	<title>Question form</title>
+</head>
+<body>
+<div class="container">
+	<form action="https://digital-spectr.com/ac/academy.php" method="post">
+			<label>Задать вопрос</label>
+		<div class="name">
+			<input type="text" name="name" id="name" placeholder="Фамилия Имя Отчество *" autofocus required pattern="^[0-9А-Яа-яЁё\s-]+$">
+		</div>
+		<div class="phone">
+			<input type="text" name="phone" id="phone" placeholder="Телефон *" autofocus required pattern="[0-9-\s\+]+$">
+		</div>
+		<div class="email">
+			<input type="text" name="email" id="email" placeholder="Email *" autofocus required pattern="[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+">
+		</div>
+		<div class="submit">
+			<input type="submit" name="submit" value="ОТПРАВИТЬ ЗАПРОС">
+		</div>	
+	</form>	
+</div>			
+</body>
+</html>
