@@ -34,11 +34,11 @@ label{
 	display: flex;
 	align-items: left;
 	margin-bottom: 25px;
-	color: #3B3D43;;	
+	color: #3B3D43;	
 }
 
 input[type=text]{
-	width: 386px;
+	width: 401px;
 	height: 48px;
 	font-family: Roboto;
 	font-style: normal;
